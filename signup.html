@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <!-- Add the link to your signup.css file -->
+
+</head>
+<body>
+    <div class="container">
+        <h2>Reservation Form</h2>
+        <form action="submit_reservation_form.php" method="POST">
+           
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="state">State:</label>
+            <select id="state" name="state" required>
+                <option value="1">Adrar</option>
+                <option value="2">Chlef</option>
+                <option value="3">Laghouat</option>
+                <option value="4">Oum El Bouaghi</option>
+                <option value="5">Batna</option>
+                <option value="6">Béjaïa</option>
+                <option value="7">Biskra</option>
+                <option value="8">Béchar</option>
+                <option value="9">Blida</option>
+                <option value="10">Bouira</option>
+                <option value="11">Tamanrasset</option>
+                <option value="12">Tébessa</option>
+                <option value="13">Tlemcen</option>
+                <option value="14">Tiaret</option>
+                <option value="15">Tizi Ouzou</option>
+                <option value="16">Alger</option>
+                <option value="17">Djelfa</option>
+                <option value="18">Jijel</option>
+                <option value="19">Sétif</option>
+                <option value="20">Saïda</option>
+                <option value="21">Skikda</option>
+                <option value="22">Sidi Bel Abbès</option>
+                <option value="23">Annaba</option>
+                <option value="24">Guelma</option>
+                <option value="25">Constantine</option>
+                <option value="26">Médéa</option>
+                <option value="27">Mostaganem</option>
+                <option value="28">M'Sila</option>
+                <option value="29">Mascara</option>
+                <option value="30">Ouargla</option>
+                <option value="31">Oran</option>
+                <option value="32">El Bayadh</option>
+                <option value="33">Illizi</option>
+                <option value="34">Bordj Bou Arréridj</option>
+                <option value="35">Boumerdès</option>
+                <option value="36">El Tarf</option>
+                <option value="37">Tindouf</option>
+                <option value="38">Tissemsilt</option>
+                <option value="39">El Oued</option>
+                <option value="40">Khenchela</option>
+                <option value="41">Souk Ahras</option>
+                <option value="42">Tipaza</option>
+                <option value="43">Mila</option>
+                <option value="44">Aïn Defla</option>
+                <option value="45">Naâma</option>
+                <option value="46">Aïn Témouchent</option>
+                <option value="47">Ghardaïa</option>
+                <option value="48">Relizane</option>
+                <option value="49">El M'Ghair</option>
+                <option value="50">El Menia</option>
+                <option value="51">Ouled Djellal</option>
+                <option value="52">Bordj Baji Mokhtar</option>
+                <option value="53">Béni Abbès</option>
+                <option value="54">In Salah</option>
+                <option value="55">In Guezzam</option>
+                <option value="56">Timimoun</option>
+                <option value="57">Touggourt</option>
+                <option value="58">Djanet</option>
+
+            </select>
+            
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number" placeholder="Enter phone number" required>
+
+            <label for="reservation_date_and_time">Reservation Date and Time:</label>
+            <input type="datetime-local" id="reservation_date_and_time" name="reservation_date_and_time" required>
+            
+            <input type="submit" value="Make Reservation">
+        </form>
+    </div>
+</body>
+</html>

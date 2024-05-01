@@ -1,0 +1,72 @@
+/* signup.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #241264, #410a5a);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    box-sizing: border-box;
+}
+
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust the opacity */
+    color: #fff;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent; /* Change to transparent */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Add border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s ease; /* Add transition for hover effect */
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    border-color: rgba(255, 255, 255, 0.5); /* Change border color on hover */
+}
