@@ -6,6 +6,19 @@
     <title>Reservation Form</title>
     <link rel="stylesheet" href="signup.css">
     <!-- Add the link to your signup.css file -->
+    <style>
+        /* Style for number of seats input */
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #333;
+            box-sizing: border-box;
+        }
+    </style>
 
 </head>
 <body>
@@ -90,6 +103,86 @@
 
             <label for="reservation_date_and_time">Reservation Date and Time:</label>
             <input type="datetime-local" id="reservation_date_and_time" name="reservation_date_and_time" required>
+
+            <!-- PS4 Console and Seats -->
+            <label for="ps4_seats">PS4 Seats:</label>
+            <select id="ps4_seats" name="ps4_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- PS5 Console and Seats -->
+            <label for="ps5_seats">PS5 Seats:</label>
+            <select id="ps5_seats" name="ps5_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- Xbox Series X Console and Seats -->
+            <label for="xbox_series_x_seats">Xbox Series X Seats:</label>
+            <select id="xbox_series_x_seats" name="xbox_series_x_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- Xbox Series S Console and Seats -->
+            <label for="xbox_series_s_seats">Xbox Series S Seats:</label>
+            <select id="xbox_series_s_seats" name="xbox_series_s_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- PC Console and Seats -->
+            <label for="pc_seats">PC Seats:</label>
+            <select id="pc_seats" name="pc_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- Racing Sim Console and Seats -->
+            <label for="racing_sim_seats">Racing Sim Seats:</label>
+            <select id="racing_sim_seats" name="racing_sim_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- VR Console and Seats -->
+            <label for="vr_seats">VR Seats:</label>
+            <select id="vr_seats" name="vr_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- Pool Table Console and Seats -->
+            <label for="pool_table_seats">Pool Table Seats:</label>
+            <select id="pool_table_seats" name="pool_table_seats">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <!-- Add more options as needed -->
+            </select>
             
             <input type="submit" value="Make Reservation">
         </form>
