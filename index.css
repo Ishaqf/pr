@@ -1,7 +1,4 @@
 
-* {
-    box-sizing: border-box;
-  }
   body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, #241264, #410a5a);
@@ -10,22 +7,149 @@
     padding: 0;
 }
 header {
-    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
     text-align: center;
     font-size: large;
-    padding: 1px;
     color: #ffffff;
+    background-color: #190932;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-bottom:2px solid  #410a5a;
+    
+    
 }
-nav a{
-    background-color: #410a5a;
+.content
+
+.log:hover{
+background-color: #b299d7;
+color: #241264;
+font-size: large;
+border-radius: 50px;
+padding: 10px;
+text-decoration: none;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#190932 ;
+    position: fixed;
+    overflow: hidden; 
+    
+    
+  }
+  li {
+  display: inline;
+}
+.res {
+    
     color: #fff;
-    text-align: right;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 30px;
+    float: right;
+    border-radius: 50px;
+    position: relative;
+    
+
+}
+.res::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #5e06e3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.res:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.res:hover{
+    background-color: #b299d7;
+    color: #190932;
+
+}
+
+#logo{
+    float: right;
+    margin-left: auto;
+    width: 75px;
+    height: 78px;
+    border-radius: 50px;
+
+}
+#logo.hoevr{
+
+}
+
+.offers{
+    
+    color: #fff;
+    text-align: left;
     display: block;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: 30px 30px;
+    float: right;
+    border-radius: 50px;
+
+
 }
-nav a:hover{
-    background-color:#fff;
-    color: black;
+.offers:hover{
+    background-color: #b299d7;
+    color: #190932;
 }
+.support{
+    
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 30px 30px;
+    float: right; 
+    border-radius: 50px;
+ 
+}
+.support:hover{
+    background-color: #b299d7;
+    color: #190932;
+
+}
+.home{
+       
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 30px 30px;
+    float: right; 
+    border-radius: 50px;
+ 
+}
+.home:hover{
+    background-color: #b299d7;
+    color: #190932;
+ 
+}
+.search-container {
+    float: right;
+    padding: 30px 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background: #190932;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: #99c2d7;
+  }
+  
+.search-container:hover {
+    background: #b299d7;
+  }

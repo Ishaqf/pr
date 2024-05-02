@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="Designer.jpeg">
     <link rel="stylesheet" href="signup.css">
     <!-- Add the link to your signup.css file -->
+    <link rel="stylesheet" href="index.css">
     <style>
         /* Style for number of seats input */
         input[type="number"] {
@@ -23,6 +24,20 @@
 
 </head>
 <body>
+    <header>
+        <a class="log" href="index.html" >IGAMING</a>
+      </header>
+      <nav>
+        <ul>
+        <li><a class="res" href="signup.html">reservation</a></li>
+        <li><a  href="signup.html"><img src="resrevartion.png" alt="logo" id="logo" ></a></li>
+    
+        <li style="float: left;"><a class="home" href="index.html">IGAMING</a></li>
+        <li style="float: left;"><a class="offers" href="offers.html">Offers</a></li>
+        <li style="float: left;"><a class="support" href="support.html">support</a></li>
+        
+    </ul>
+      </nav>
     <div class="container">
         <h2>Reservation Form</h2>
         <form action="submit_reservation_form.php" method="POST">
@@ -185,8 +200,8 @@
                 <!-- Add more options as needed -->
             </select>
             
-           <!--- <input type="submit" value="Make Reservation"> --->
-           <a href="index.html"> alert make Reservation </a>
+            <input type="submit" name="mr" value="Make Reservation"> 
+           <a href="index.html" target="mr">  make Reservation </a> 
         </form>
     </div>
 </body>
