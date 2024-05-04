@@ -60,7 +60,6 @@ li {
     display: inline-block;
     text-decoration: none;
     padding: 30px 30px;
-    float: right;
     border-radius: 50px;
     position: relative;
     
@@ -97,9 +96,7 @@ li {
     border-radius: 50px;
 
 }
-#logo.hoevr{
 
-}
 
 .offers{
     
