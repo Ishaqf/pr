@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif,'Kumbh Sans';
+    box-sizing: border-box;
+    
+}
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #241264, #410a5a);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
