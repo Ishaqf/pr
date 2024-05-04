@@ -1,7 +1,7 @@
-* {
+html {
     font-family: sans-serif,'Kumbh Sans';
     box-sizing: border-box;
-    
+    height: 100%;
 }
   body {
     width: 100%;
@@ -11,8 +11,14 @@
     margin: 0;
     padding: 0;
     min-height: 100%;
-
+    position: relative;
 }
+.container {
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
 header {
     text-decoration: none;
     text-align: center;
@@ -62,6 +68,7 @@ li {
     padding: 30px 30px;
     border-radius: 50px;
     position: relative;
+    float: right;
     
 
 }
@@ -161,15 +168,15 @@ li {
     background: #b299d7;
     
   }
-.footerbar{
-    position: fixed;
-    bottom: 0;
-    margin: 0;
-    padding: 20px;
-    width: 100%;
+footer{
     background-color:#190932 ;
     color: #fff;
+    padding: 20px;
     text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    
     
 }
   .footer_games{
@@ -269,16 +276,17 @@ li {
   
   .slide_wrapper {
     position: relative;
-    max-width: 48rem;
     margin:0 auto;
   }
-
+.offr{
+    margin-left: 45%;
+    padding: 0%;
+    color: red;
+    
+}
 
   .options{
-    position: fixed;
-    bottom: 0;
-    margin: 0;
-    padding: 20px;
+    padding: 180px;
     width: 100%;
     background-color:#a9a0b8 ;
     color: #fff;
@@ -287,16 +295,68 @@ li {
   .multiplayer{
     width: 25%;
     float: right;
+    
+  }
+  .mp{
+    color: aqua;
+    padding: 20px;
+    margin-top: 30%;
+    margin-right: 500%;
+    border-radius: 50%;
+    text-shadow: #99c2d7;
+
+  }
+  .mp:hover{
+    background-color: #190932;
+    opacity: 0.5;
   }
   .story{
     width: 25%;
     float: right;
   }
-  .onlinegames{
+  .sg{
+    color: aqua;
+    padding: 20px;
+    margin-top: 30%;
+    margin-right: 500%;
+    border-radius: 50%;
+    text-shadow: #99c2d7;
+  }
+.sg:hover{
+    background-color: #190932;
+    opacity: 0.5;
+}
+.onlinegames{
     width: 25%;
     float: right;
-  }
-  .Racing{
+}
+.og{
+    color: aqua;
+    padding: 20px;
+    margin-top: 30%;
+    margin-right: 500%;
+    border-radius: 50%;
+    text-shadow: #99c2d7;
+}
+.og:hover{
+    background-color: #190932;
+    opacity: 0.5;
+}
+
+.Racing{
     width: 25%;
     float: right;
-  }
+}
+.rg{
+    color: aqua;
+    padding: 20px;
+    margin-top: 30%;
+    margin-right: 500%;
+    
+    border-radius: 50%;
+    text-shadow: #99c2d7;
+}
+.rg:hover{
+    background-color: #190932;
+    opacity: 0.5;
+}
